@@ -7,13 +7,13 @@ const testimonials = [
     name: "Joel",
     avatar: "J",
     title: "Software Engineer",
-    description: "This is the best application I've ever used!"
+    description: "This is the best chatbot application I've ever used!"
   },
   {
     name: "Antonio",
     avatar: "A",
     title: "Designer",
-    description: "I use this daily for generating new photos!"
+    description: "I use this daily for asking  my customer support questions !"
   },
   {
     name: "Mark",
@@ -26,14 +26,14 @@ const testimonials = [
     name: "Mary",
     avatar: "M",
     title: "CFO",
-    description: "The best in class, definitely worth the premium subscription!"
+    description: "The best in  app , definitely worth the premium subscription!"
   }
 ];
 
 const Cards = () => {
 
   return (
-    <div className="px-10 py-[2rem]">
+    <div className="px-10">
       <div className="flex justify-center flex-col py-[3rem]">
         <h2 className="text-center text-4xl  font-extrabold mb-3">
           Ask Anything in Seconds
